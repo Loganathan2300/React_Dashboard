@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 //mport "../../css/Body.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
-function Body() {
+function Forms() {
   return (
 <>
 <div className="content mx-4 my-lg-3">
@@ -49,84 +49,84 @@ function Body() {
   );
 }
 
-// function Body() {
-//   const ReactForm = () => {
-//     const [formData, setFormData] = useState({
-//       firstName: "",
-//       lastName: "",
-//       email: "",
-//       password: "",
-//     });
+{/* function Forms() {
+  const ReactForm = () => {
+    const [formData, setFormData] = useState({
+      firstName: "",
+      lastName: "",
+      email: "",
+      password: "",
+    });
 
-//     const handleChange = (e) => {
-//       setFormData({
-//         ...formData,
-//         [e.target.name]: e.target.value,
-//       });
-//     };
+    const handleChange = (e) => {
+      setFormData({
+        ...formData,
+        [e.target.name]: e.target.value,
+      });
+    };
 
-//     const handleSubmit = (e) => {
-//       e.preventDefault();
-//       // You can perform form submission logic here
-//       console.log("Form submitted:", formData);
-//     };
+    // const handleSubmit = (e) => {
+    //   e.preventDefault();
+    //   // You can perform form submission logic here
+    //   console.log("Form submitted:", formData);
+    // };
 
-//     return (
-//       <div>
-//         <div className="container mt-5">
-//           <h2>React Form</h2>
-//           <form onSubmit={handleSubmit}>
-//             <div className="form-group">
-//               <label htmlFor="firstName">First Name:</label>
-//               <input
-//                 type="text"
-//                 className="form-control"
-//                 id="firstName"
-//                 name="firstName"
-//                 value={formData.firstName}
-//                 onChange={handleChange} />
-//             </div>
-//             <div className="form-group">
-//               <label htmlFor="lastName">Last Name:</label>
-//               <input
-//                 type="text"
-//                 className="form-control"
-//                 id="lastName"
-//                 name="lastName"
-//                 value={formData.lastName}
-//                 onChange={handleChange}/>
-//             </div>
-//             <div className="form-group">
-//               <label htmlFor="email">Email:</label>
-//               <input
-//                 type="email"
-//                 className="form-control"
-//                 id="email"
-//                 name="email"
-//                 value={formData.email}
-//                 onChange={handleChange}/>
-//             </div>
-//             <div className="form-group">
-//               <label htmlFor="password">Password:</label>
-//               <input
-//                 type="password"
-//                 className="form-control"
-//                 id="password"
-//                 name="password"
-//                 value={formData.password}
-//                 onChange={handleChange}/>
-//             </div>
-//             <button type="submit" className="btn btn-primary">
-//               Submit
-//             </button>
-//           </form>
-//         </div>
-//       </div>
-//     );
-//   };
-// }
+    return (
+      <div>
+        <div className="container mt-5">
+          <h2>React Form</h2>
+          <form onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label htmlFor="firstName">First Name:</label>
+              <input
+                type="text"
+                className="form-control"
+                id="firstName"
+                name="firstName"
+                value={formData.firstName}
+                onChange={handleChange} />
+            </div>
+            <div className="form-group">
+              <label htmlFor="lastName">Last Name:</label>
+              <input
+                type="text"
+                className="form-control"
+                id="lastName"
+                name="lastName"
+                value={formData.lastName}
+                onChange={handleChange}/>
+            </div>
+            <div className="form-group">
+              <label htmlFor="email">Email:</label>
+              <input
+                type="email"
+                className="form-control"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}/>
+            </div>
+            <div className="form-group">
+              <label htmlFor="password">Password:</label>
+              <input
+                type="password"
+                className="form-control"
+                id="password"
+                name="password"
+                value={formData.password}
+                onChange={handleChange}/>
+            </div>
+            <button type="submit" className="btn btn-primary">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    );
+  };
+} */}
 
-export default Body;
+export default Forms;
 
 // import React, { useState } from "react";
 // import "../../css/Body.css";

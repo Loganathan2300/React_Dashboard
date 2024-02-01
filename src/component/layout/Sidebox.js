@@ -25,15 +25,6 @@ const Sidebox = () => {
           </li>
         </ul>
       </nav>
-
-      {/* <!-- Page Content --> */}
-      <div id="content">
-        {/* <h2>Main Content</h2> */}
-        {/* <p>This is the main content area. It will take up the remaining space.</p> */}
-        {/* <Body/> */}
-        {/* <Calculator/> */}
-        {/* <Content/> */}
-      </div>
     </div>
   );
 };
